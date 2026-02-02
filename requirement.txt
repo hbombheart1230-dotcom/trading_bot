@@ -1,0 +1,19 @@
+# --- 핵심 에이전틱 프레임워크 ---
+langgraph               # 에이전트 워크플로우 제어 (상태 머신)
+langchain-core          # 에이전트 도구(Skill) 및 인터페이스 규격
+langchain-google-genai  # Gemini 3.0 모델 연결용
+
+# --- 데이터 처리 및 API 통신 ---
+requests                # 키움 REST API 및 외부 데이터 통신
+python-dotenv           # .env 환경 변수 로드 (보안 필수)
+pandas                  # 금융 데이터 분석 및 가공
+numpy                   # 수치 계산 및 지표 산출
+
+# --- 기술적 분석 및 유틸리티 ---
+pandas-ta               # 200개 이상의 기술적 지표(RSI, MACD 등) 계산
+schedule                # 장 운영 시간 스케줄링 관리
+pykrx                   # 한국 거래소(KRX) 공휴일 및 상장 정보 조회
+
+# --- (선택 사항) 향후 확장용 ---
+# mcp                   # MCP 서버 연동용 (지원 시 활성화)
+# sqlalchemy            # 로컬 매매 기록 저장용 DB (SQLite 등)
