@@ -10,7 +10,7 @@ def check_market_status(ticker: str):
     return "현재 한국 정규장 운영 중입니다."
 
 # 2. 제미나이 모델 설정 (3.0 Pro)
-llm = ChatGoogleGenerativeAI(model="gemini-3.0-pro", google_api_key=Config.GEMINI_API_KEY)
+llm = ChatGoogleGenerativeAI(model="gemini-3-flash-preview", google_api_key=Config.GEMINI_API_KEY)
 
 def trading_agent(state: AgentState):
     # 에이전트의 사고 과정
