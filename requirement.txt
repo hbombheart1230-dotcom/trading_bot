@@ -1,6 +1,0 @@
-requests
-pandas
-numpy
-python-dotenv
-langgraph
-google-generativeai
